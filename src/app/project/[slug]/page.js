@@ -11,7 +11,7 @@ import { Box, AppBar, Toolbar, Button, Container, Divider, Typography, MenuItem,
 import ToggleColorMode from '@/components/ToggleColorMode';
 import ProjectDetails from '@/components/ProjectDetails';
 import Footer from '@/components/Footer';
-import { getProjectDetails } from '@/actions';
+import PROJECTS from '@/data/projects';
 
 const logoStyle = {
     width: '140px',
@@ -218,11 +218,11 @@ const Project = ({ params }) => {
     };
 
     const fetchData = async () => {
-        const response = await getProjectDetails(params.slug);
+        const response = PROJECTS.find(item => item.slug === params.slug);
         console.log(response);
 
-        if (!response.status) return alert("Something Went Wrong!");
-        setProject(response.data);
+        if (!response) return alert("Something Went Wrong!");
+        setProject(response);
     };
 
     useEffect(() => {

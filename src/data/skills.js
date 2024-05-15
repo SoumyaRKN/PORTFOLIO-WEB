@@ -46,11 +46,6 @@ const SKILLS = [
         title: 'Python',
         description: 'An interpreted, high-level, general-purpose programming language.',
     },
-    // {
-    //   icon: <Javascript />,
-    //   title: 'Core Java',
-    //   description: 'A general-purpose, concurrent, object-oriented programming language that is specifically designed to have as few implementation dependencies as possible.',
-    // },
     {
         icon: <LanRounded />,
         title: 'Git',

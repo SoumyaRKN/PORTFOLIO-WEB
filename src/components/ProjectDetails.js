@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardHeader, Chip, Grid, ImageList, ImageListItem, ImageListItemBar, alpha } from '@mui/material';
-import { Box, Button, Container, Link, Stack, TextField, Typography } from '@mui/material';
+import { Card, CardContent, CardHeader, Chip, Grid, ImageList, ImageListItem, ImageListItemBar, alpha, Box, Container, Stack, Typography } from '@mui/material';
 
 export default function ProjectDetails({ project }) {
   const { title, description, images, features, technologies, objective, conclusion } = project;

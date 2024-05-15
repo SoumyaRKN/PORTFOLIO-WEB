@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronRightRounded } from '@mui/icons-material';
 import { Box, Card, Chip, Container, Grid, Link, Stack, Typography } from '@mui/material';
-import PROJECTS from '@/data/projects';
+import PROJECTS_SHORT from '@/data/projectsShort';
 
 export default function Projects() {
   const [selectedItemIndex, setSelectedItemIndex] = useState(0);
@@ -10,7 +10,7 @@ export default function Projects() {
     setSelectedItemIndex(index);
   };
 
-  const selectedFeature = PROJECTS[selectedItemIndex];
+  const selectedFeature = PROJECTS_SHORT[selectedItemIndex];
 
   return (
     <Container
@@ -43,7 +43,7 @@ export default function Projects() {
         <Grid item xs={12}>
           {/* Mobile View */}
           <Grid container item gap={1} sx={{ display: { xs: 'auto', sm: 'none' } }}>
-            {PROJECTS.map(({ title }, index) => (
+            {PROJECTS_SHORT.map(({ title }, index) => (
               <Chip
                 key={index}
                 label={title}
@@ -81,8 +81,8 @@ export default function Projects() {
               sx={{
                 backgroundImage: (theme) =>
                   theme.palette.mode === 'light'
-                    ? PROJECTS[selectedItemIndex].imageLight
-                    : PROJECTS[selectedItemIndex].imageDark,
+                    ? PROJECTS_SHORT[selectedItemIndex].imageLight
+                    : PROJECTS_SHORT[selectedItemIndex].imageDark,
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
                 minHeight: {
@@ -188,7 +188,7 @@ export default function Projects() {
             sx={{ width: '100%', display: { xs: 'none', sm: 'flex' } }}
           >
             <Grid container spacing={2}>
-              {PROJECTS.map(({ icon, slug, title, description, imageLight, imageDark }, index) => (
+              {PROJECTS_SHORT.map(({ icon, slug, title, description, imageLight, imageDark }, index) => (
                 <Grid item xs={12} md={6} key={index}>
                   {/* <Card
                     key={index}

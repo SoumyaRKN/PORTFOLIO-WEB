@@ -39,11 +39,6 @@ const WHATIDO = [
         title: 'Web Optimization',
         description: 'Speed is paramount. I optimize websites and apps for lightning-fast performance, ensuring user satisfaction and bolstering SEO rankings.',
     },
-    // {
-    //   icon: <Visibility />,
-    //   title: 'User-Centric Design',
-    //   description: 'Seamlessly blending development with design, I create interfaces that fuse functionality with aesthetics, ensuring an enjoyable user journey.',
-    // },
 ];
 
 export default WHATIDO;
