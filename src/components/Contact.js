@@ -26,7 +26,7 @@ export default function Contact() {
           Contact
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          Whether you're a potential client with a project idea, a fellow developer eager to collaborate, or simply have a question or feedback, this section provides a direct line to initiate meaningful conversations.
+          Whether you&apos;re a potential client with a project idea, a fellow developer eager to collaborate, or simply have a question or feedback, this section provides a direct line to initiate meaningful conversations.
         </Typography>
       </Box>
 

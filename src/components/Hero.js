@@ -67,7 +67,7 @@ export default function Hero() {
             color="text.secondary"
             sx={{ alignSelf: 'center', width: { sm: '100%', md: '80%' } }}
           >
-            a dynamic full-stack web developer based in India. Here, you'll get a glimpse of my journey in the world of web development where ideas meets reality.
+            a dynamic full-stack web developer based in India. Here, you&apos;ll get a glimpse of my journey in the world of web development where ideas meets reality.
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
@@ -92,7 +92,11 @@ export default function Hero() {
             </Button>
           </Stack>
           <Typography variant="caption" textAlign="center" sx={{ opacity: 0.8 }}>
-            Read my <Link href="#" color="primary">Terms & Conditions</Link>.
+            Read my&nbsp;
+            <Link href="#" color="primary">
+              Terms & Conditions
+            </Link>
+            .
           </Typography>
         </Stack>
         <Box
