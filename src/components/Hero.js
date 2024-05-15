@@ -49,7 +49,7 @@ export default function Hero() {
               fontSize: 'clamp(1rem, 5vw, 1.5rem)',
             }}
           >
-            Hey! I Am&nbsp;
+            Hey! I Am
             <Typography
               component="span"
               variant="h1"
@@ -92,11 +92,7 @@ export default function Hero() {
             </Button>
           </Stack>
           <Typography variant="caption" textAlign="center" sx={{ opacity: 0.8 }}>
-            Read my&nbsp;
-            <Link href="#" color="primary">
-              Terms & Conditions
-            </Link>
-            .
+            Read my <Link href="#" color="primary">Terms & Conditions</Link>.
           </Typography>
         </Stack>
         <Box

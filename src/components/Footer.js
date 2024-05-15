@@ -6,7 +6,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" mt={1}>
       {'Copyright © '}
-      <Link href="https://github.com/SoumyaRKN" target="_blank">Soumya Prakash Nayak&nbsp;</Link>
+      <Link href="https://github.com/SoumyaRKN" target="_blank">Soumya Prakash Nayak </Link>
       {new Date().getFullYear()}
       {/* {' Made with Material Tailwind'} */}
     </Typography>
@@ -39,9 +39,7 @@ export default function Footer() {
           <Link color="text.secondary" href="#">
             Privacy Policy
           </Link>
-          <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
-            &nbsp;•&nbsp;
-          </Typography>
+          <Typography display="inline" sx={{ mx: 1, opacity: 0.5 }}>•</Typography>
           <Link color="text.secondary" href="#">
             Terms of Service
           </Link>
