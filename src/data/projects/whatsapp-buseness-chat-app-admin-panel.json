@@ -1,0 +1,37 @@
+{
+    "title": "WhatsApp Business Chat App Admin Panel",
+    "description": "An admin panel designed to manage organizations/owners, handle bill payment management, and provide dashboard analytics for the WhatsApp Business Chat App.",
+    "images": [
+        {
+            "image": "/projects/whatsapp_buseness_chat_app_admin_panel/1.png",
+            "title": "Manage Organizations/Owners"
+        }
+    ],
+    "features": [
+        {
+            "title": "Dashboard",
+            "description": "Access a dashboard to view analytics and insights regarding organizations/owners, bill payments, and overall system performance."
+        },
+        {
+            "title": "Manage Organizations/Owners",
+            "description": "Manage organizations/owners, including adding new organizations/owners, updating existing details, and deleting obsolete entries."
+        },
+        {
+            "title": "Bill Payment Management",
+            "description": "Handle bill payment management, including processing payments, tracking payment status, and generating payment reports."
+        }
+    ],
+    "technologies": [
+        "Next.js",
+        "Material UI",
+        "React Toastify",
+        "React Confirm Alert",
+        "Node.js",
+        "Express.js",
+        "JWT",
+        "bcrypt",
+        "MongoDB"
+    ],
+    "objective": "The objective of this project was to provide an administrative interface for managing organizations/owners, handling bill payments, and providing dashboard analytics for the WhatsApp Business Chat App.",
+    "conclusion": "The project successfully achieved its objectives by implementing features such as Dashboard, Manage Organizations/Owners, and Bill Payment Management. It utilized modern technologies like Next.js, Material UI, React, Node.js, Express.js, and MongoDB. Additionally, it was hosted on a shared server to make it accessible for administrative purposes."
+}

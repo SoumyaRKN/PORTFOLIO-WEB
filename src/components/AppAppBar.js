@@ -130,8 +130,9 @@ function AppAppBar({ mode, toggleColorMode }) {
                 variant="outlined"
                 size="small"
                 component="a"
-                href="#"
+                href="/resume.pdf"
                 target="_blank"
+              // download="resume_soumya_prakash_nayak.pdf"
               >
                 Resume
               </Button>
@@ -185,7 +186,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                       color="primary"
                       variant="outlined"
                       component="a"
-                      href="#"
+                      href="/resume.pdf"
                       target="_blank"
                       sx={{ width: '100%' }}
                     >

@@ -1,0 +1,32 @@
+{
+    "title": "Weather App",
+    "description": "A weather application that provides users with weather forecasts for their current location and allows them to search for weather information of other places.",
+    "images": [
+        {
+            "image": "/projects/weather_app/1.png",
+            "title": "Weather Forecast"
+        },
+        {
+            "image": "/projects/weather_app/2.png",
+            "title": "Weather Details"
+        }
+    ],
+    "features": [
+        {
+            "title": "Current Location Weather Forecast",
+            "description": "Displays the weather forecast for the user's current location, providing information such as temperature, humidity, wind speed, and conditions."
+        },
+        {
+            "title": "Other Locations Weather Forecast",
+            "description": "Enables users to search for weather information of other places by entering the name of a place."
+        }
+    ],
+    "technologies": [
+        "Next.js",
+        "Tailwind CSS",
+        "OpenWeather API",
+        "JavaScript Geocoding API"
+    ],
+    "objective": "The objective of this project was to develop a weather application that offers users the convenience of checking weather forecasts for their current location and searching for weather information of other places.",
+    "conclusion": "The project successfully achieved its objectives by implementing features such as Current Location Weather Forecast and Search Place. It utilized technologies like React for the frontend, Node.js and Express for the backend, and integrated with OpenWeatherMap API for weather data and Geocoding API for location search. Additionally, it provides a user-friendly interface for seamless weather information access."
+}

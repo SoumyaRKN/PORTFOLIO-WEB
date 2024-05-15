@@ -1,0 +1,90 @@
+{
+    "title": "Whatsapp Business Chat App",
+    "description": "A chat application designed to facilitate seamless communication between business owners and their customers through WhatsApp Business accounts.",
+    "images": [
+        {
+            "image": "/projects/whatsapp_buseness_chat_app/1.png",
+            "title": "Dashboard"
+        },
+        {
+            "image": "/projects/whatsapp_buseness_chat_app/2.png",
+            "title": "Chat with customers"
+        },
+        {
+            "image": "/projects/whatsapp_buseness_chat_app/3.png",
+            "title": "Contacts Management"
+        },
+        {
+            "image": "/projects/whatsapp_buseness_chat_app/4.png",
+            "title": "Message Templates Management"
+        },
+        {
+            "image": "/projects/whatsapp_buseness_chat_app/5.png",
+            "title": "WhatsApp account Management"
+        },
+        {
+            "image": "/projects/whatsapp_buseness_chat_app/6.png",
+            "title": "User management"
+        }
+    ],
+    "features": [
+        {
+            "title": "Dashboard",
+            "description": "Access a dashboard displaying weekly messages chart, available templates categorized by status and available contacts categorized by status."
+        },
+        {
+            "title": "WhatsApp account Management",
+            "description": "Set up and configure WhatsApp Business accounts to enable communication with customers."
+        },
+        {
+            "title": "Message template registration",
+            "description": "Register message templates for efficient communication with customers through predefined message formats."
+        },
+        {
+            "title": "Import message templates",
+            "description": "Import message templates from configured WhatsApp Business accounts for easy access and usage."
+        },
+        {
+            "title": "Sync message template status",
+            "description": "Synchronize the status of message templates to ensure consistency across platforms."
+        },
+        {
+            "title": "Add contacts",
+            "description": "Add contacts to your chat application for streamlined communication with customers."
+        },
+        {
+            "title": "User management",
+            "description": "Manage users with functionalities such as add, view, update, and delete."
+        },
+        {
+            "title": "Chat with customers",
+            "description": "Initiate, view, and delete chat conversations with customers for effective communication management."
+        },
+        {
+            "title": "Real-time messaging",
+            "description": "Receive real-time updates on message delivery and read status for improved communication tracking."
+        },
+        {
+            "title": "Text and media templates",
+            "description": "Send both text and media templates to customers for comprehensive communication."
+        },
+        {
+            "title": "User authentication",
+            "description": "Secured chat application with user authentication, ensuring that only authorized users can access the platform."
+        }
+    ],
+    "technologies": [
+        "Next.js",
+        "Material UI",
+        "React Toastify",
+        "React Confirm Alert",
+        "Node.js",
+        "Express.js",
+        "Socket.IO",
+        "JWT",
+        "bcrypt",
+        "MongoDB"
+    ],
+    "objective": "The objective of this project was to provide business owners with a platform to communicate effectively with their customers via their WhatsApp Business accounts.",
+    "conclusion": "The project successfully achieved its objectives by implementing features such as Dashboard, WhatsApp Business account Management, Message template registration, Import message templates, Sync message template status, Add contacts, User management, Chat with customers, Real-time messaging, Text and media templates and User authentication. It utilized modern technologies like Next.js, Material UI, Node.js, Express.js, Socket.IO, JWT, and MongoDB. Additionally, it was hosted on a shared server to make it accessible for demo."
+}

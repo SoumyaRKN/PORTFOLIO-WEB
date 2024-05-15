@@ -1,0 +1,44 @@
+{
+    "title": "Chat Application",
+    "description": "A chat application that allows users to sign up, log in, and join group chat rooms with other users to communicate in real-time.",
+    "images": [
+        {
+            "image": "/projects/chat_application/1.png",
+            "title": "Analog Clock"
+        },
+        {
+            "image": "/projects/chat_application/2.png",
+            "title": "Analog Clock"
+        },
+        {
+            "image": "/projects/chat_application/3.png",
+            "title": "Analog Clock"
+        }
+    ],
+    "features": [
+        {
+            "title": "User Authentication",
+            "description": "Provides user authentication functionality, allowing users to sign up and log in securely."
+        },
+        {
+            "title": "Group Chat Rooms",
+            "description": "Enables users to join group chat rooms with other users to engage in real-time communication."
+        },
+        {
+            "title": "Real-time Messaging",
+            "description": "Implements a real-time messaging system using Socket.IO, allowing users to send and receive messages instantly."
+        }
+    ],
+    "technologies": [
+        "Node.js",
+        "Express.js",
+        "Pug (View Engine)",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "Socket.IO",
+        "MongoDB"
+    ],
+    "objective": "The objective of this project was to create a chat application that provides users with the ability to sign up, log in, and join group chat rooms for real-time communication.",
+    "conclusion": "The project successfully achieved its objective by implementing features such as User Authentication, Group Chat Rooms, and Real-time Messaging. It utilized technologies like Node.js, Express.js, Pug (View Engine), CSS, Bootstrap, JavaScript, Socket.IO, and MongoDB. Additionally, it provides users with a seamless and interactive chat experience."
+}

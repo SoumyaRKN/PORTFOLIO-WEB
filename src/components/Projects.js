@@ -1,100 +1,7 @@
 import React, { useState } from 'react';
+import { ChevronRightRounded } from '@mui/icons-material';
 import { Box, Card, Chip, Container, Grid, Link, Stack, Typography } from '@mui/material';
-import { ChevronRightRounded, AccessTimeRounded, ChatRounded, SmartphoneRounded, SettingsRounded, SportsEsportsRounded, GetAppRounded, AssignmentRounded, WebRounded, CloudRounded, Cloud, WhatsApp, NetworkCell, EventRepeat } from '@mui/icons-material';
-
-const items = [
-  // {
-  //   icon: <NetworkCell />,
-  //   title: 'Network Management System',
-  //   description: 'Backend API for newtork management system.',
-  //   imageLight: 'url("/projects/projects.jpg")',
-  //   imageDark: 'url("/projects/projects.jpg")',
-  // },
-  // {
-  //   icon: <EventRepeat />,
-  //   title: 'ERP System',
-  //   description: 'Frontend and Backend work on ERP system.',
-  //   imageLight: 'url("/projects/projects.jpg")',
-  //   imageDark: 'url("/projects/projects.jpg")',
-  // },
-  {
-    icon: <WhatsApp />,
-    title: 'Whatsapp Buseness Chat App',
-    description: 'A chat application, designed to facilitate seamless communication with your customers.',
-    imageLight: 'url("/projects/whatsapp-buseness-chat-app.png")',
-    imageDark: 'url("/projects/whatsapp-buseness-chat-app.png")',
-  },
-  {
-    icon: <SettingsRounded />,
-    title: 'Whatsapp Buseness Chat App Admin Panel',
-    description: 'Admin panel for managing settings and user data within the whatsapp buseness chat app.',
-    imageLight: 'url("/projects/whatsapp-buseness-chat-app-admin-panel.png")',
-    imageDark: 'url("/projects/whatsapp-buseness-chat-app-admin-panel.png")',
-  },
-  {
-    icon: <SmartphoneRounded />,
-    title: 'Meta Whatsapp Cloud API SDK',
-    description: 'NodeJs SDK for simplifying messaging, webhooks and managing templates for Meta WhatsApp Cloud API integration.',
-    imageLight: 'url("/projects/meta-whatsapp-cloud-api-sdk.png")',
-    imageDark: 'url("/projects/meta-whatsapp-cloud-api-sdk.png")',
-  },
-  {
-    icon: <ChatRounded />,
-    title: 'Chat Application',
-    description: 'A chat application with a sleek interface, facilitating real-time communication.',
-    imageLight: 'url("/projects/chat-application.png")',
-    imageDark: 'url("/projects/chat-application.png")',
-  },
-  {
-    icon: <WebRounded />,
-    title: 'Blog App',
-    description: 'Personal blog platform built with Next.js, sharing insights and experiences.',
-    imageLight: 'url("/projects/blog-app.png")',
-    imageDark: 'url("/projects/blog-app.png")',
-  },
-  {
-    icon: <CloudRounded />,
-    title: 'Weather App',
-    description: 'Weather application built with Next.js, providing real-time weather forecasts.',
-    imageLight: 'url("/projects/weather-app.png")',
-    imageDark: 'url("/projects/weather-app.png")',
-  },
-  {
-    icon: <AssignmentRounded />,
-    title: 'Quiz App',
-    description: 'Interactive quiz application with scoring features.',
-    imageLight: 'url("/projects/quiz-app.png")',
-    imageDark: 'url("/projects/quiz-app.png")',
-  },
-  {
-    icon: <GetAppRounded />,
-    title: 'File Downloader',
-    description: 'Simple UI enabling users to download files from URLs, enhancing file accessibility.',
-    imageLight: 'url("/projects/file-downloader.png")',
-    imageDark: 'url("/projects/file-downloader.png")',
-  },
-  {
-    icon: <SportsEsportsRounded />,
-    title: 'Dragon Game JS',
-    description: 'An interactive web based game built with JavaScript.',
-    imageLight: 'url("/projects/dragon-game.png")',
-    imageDark: 'url("/projects/dragon-game.png")',
-  },
-  {
-    icon: <AccessTimeRounded />,
-    title: 'Digital Clock',
-    description: 'A digital clock built from scratch, showcasing timekeeping functionality.',
-    imageLight: 'url("/projects/digital-clock.png")',
-    imageDark: 'url("/projects/digital-clock.png")',
-  },
-  {
-    icon: <AccessTimeRounded />,
-    title: 'Analog Clock',
-    description: 'Analog clock designed during a learning session.',
-    imageLight: 'url("/projects/analog-clock.png")',
-    imageDark: 'url("/projects/analog-clock.png")',
-  },
-];
+import PROJECTS from '@/data/projects';
 
 export default function Projects() {
   const [selectedItemIndex, setSelectedItemIndex] = useState(0);
@@ -103,7 +10,7 @@ export default function Projects() {
     setSelectedItemIndex(index);
   };
 
-  const selectedFeature = items[selectedItemIndex];
+  const selectedFeature = PROJECTS[selectedItemIndex];
 
   return (
     <Container
@@ -136,7 +43,7 @@ export default function Projects() {
         <Grid item xs={12}>
           {/* Mobile View */}
           <Grid container item gap={1} sx={{ display: { xs: 'auto', sm: 'none' } }}>
-            {items.map(({ title }, index) => (
+            {PROJECTS.map(({ title }, index) => (
               <Chip
                 key={index}
                 label={title}
@@ -174,11 +81,72 @@ export default function Projects() {
               sx={{
                 backgroundImage: (theme) =>
                   theme.palette.mode === 'light'
-                    ? items[selectedItemIndex].imageLight
-                    : items[selectedItemIndex].imageDark,
+                    ? PROJECTS[selectedItemIndex].imageLight
+                    : PROJECTS[selectedItemIndex].imageDark,
                 backgroundSize: 'contain',
                 backgroundPosition: 'center',
-                minHeight: 250,
+                minHeight: {
+                  '@media (max-width: 600px)': {
+                    minHeight: '250px'
+                  },
+                  '@media (max-width: 580px)': {
+                    minHeight: '240px'
+                  },
+                  '@media (max-width: 540px)': {
+                    minHeight: '227px'
+                  },
+                  '@media (max-width: 520px)': {
+                    minHeight: '213px'
+                  },
+                  '@media (max-width: 490px)': {
+                    minHeight: '200px'
+                  },
+                  '@media (max-width: 460px)': {
+                    minHeight: '186px'
+                  },
+                  '@media (max-width: 431px)': {
+                    minHeight: '175px'
+                  },
+                  '@media (max-width: 415px)': {
+                    minHeight: '168px'
+                  },
+                  '@media (max-width: 400px)': {
+                    minHeight: '160px'
+                  },
+                  '@media (max-width: 376px)': {
+                    minHeight: '150px'
+                  },
+                  '@media (max-width: 361px)': {
+                    minHeight: '144px'
+                  },
+                  '@media (max-width: 345px)': {
+                    minHeight: '137px'
+                  },
+                  '@media (max-width: 320px)': {
+                    minHeight: '126px'
+                  },
+                  '@media (max-width: 300px)': {
+                    minHeight: '117px'
+                  },
+                  '@media (max-width: 280px)': {
+                    minHeight: '108px'
+                  },
+                  '@media (max-width: 260px)': {
+                    minHeight: '100px'
+                  },
+                  '@media (max-width: 245px)': {
+                    minHeight: '92px'
+                  },
+                  '@media (max-width: 225px)': {
+                    minHeight: '84px'
+                  },
+                  '@media (max-width: 210px)': {
+                    minHeight: '78px'
+                  },
+                  '@media (max-width: 200px)': {
+                    minHeight: '73px'
+                  },
+                }
               }}
             />
             <Box sx={{ px: 2, py: 2 }}>
@@ -193,7 +161,7 @@ export default function Projects() {
                 color="primary"
                 variant="body2"
                 fontWeight="bold"
-                href="#"
+                href={`/project/${selectedFeature.slug}`}
                 sx={{
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -220,7 +188,7 @@ export default function Projects() {
             sx={{ width: '100%', display: { xs: 'none', sm: 'flex' } }}
           >
             <Grid container spacing={2}>
-              {items.map(({ icon, title, description, imageLight, imageDark }, index) => (
+              {PROJECTS.map(({ icon, slug, title, description, imageLight, imageDark }, index) => (
                 <Grid item xs={12} md={6} key={index}>
                   {/* <Card
                     key={index}
@@ -315,7 +283,75 @@ export default function Projects() {
                         backgroundImage: (theme) => theme.palette.mode === 'light' ? imageLight : imageDark,
                         backgroundSize: 'contain',
                         backgroundPosition: 'center',
-                        minHeight: 250,
+                        minHeight: {
+                          minHeight: 250,
+                          '@media (max-width: 1200px)': {
+                            minHeight: '246px'
+                          },
+                          '@media (max-width: 1154px)': {
+                            minHeight: '239px'
+                          },
+                          '@media (max-width: 1122px)': {
+                            minHeight: '231px'
+                          },
+                          '@media (max-width: 1100px)': {
+                            minHeight: '228px'
+                          },
+                          '@media (max-width: 1060px)': {
+                            minHeight: '219px'
+                          },
+                          '@media (max-width: 1025px)': {
+                            minHeight: '210px'
+                          },
+                          '@media (max-width: 1000px)': {
+                            minHeight: '204px'
+                          },
+                          '@media (max-width: 970px)': {
+                            minHeight: '199px'
+                          },
+                          '@media (max-width: 930px)': {
+                            minHeight: '190px'
+                          },
+                          '@media (max-width: 913px)': {
+                            minHeight: '186px'
+                          },
+                          '@media (max-width: 900px)': {
+                            minHeight: '375px'
+                          },
+                          '@media (max-width: 875px)': {
+                            minHeight: '364px'
+                          },
+                          '@media (max-width: 854px)': {
+                            minHeight: '347px'
+                          },
+                          '@media (max-width: 840px)': {
+                            minHeight: '348px'
+                          },
+                          '@media (max-width: 821px)': {
+                            minHeight: '333px'
+                          },
+                          '@media (max-width: 800px)': {
+                            minHeight: '331px'
+                          },
+                          '@media (max-width: 769px)': {
+                            minHeight: '316px'
+                          },
+                          '@media (max-width: 740px)': {
+                            minHeight: '308px'
+                          },
+                          '@media (max-width: 720px)': {
+                            minHeight: '295px'
+                          },
+                          '@media (max-width: 690px)': {
+                            minHeight: '282px'
+                          },
+                          '@media (max-width: 650px)': {
+                            minHeight: '264px'
+                          },
+                          '@media (max-width: 625px)': {
+                            minHeight: '253px'
+                          },
+                        }
                       }}
                     />
                     <Box sx={{ px: 2, py: 2 }}>
@@ -330,7 +366,7 @@ export default function Projects() {
                         color="primary"
                         variant="body2"
                         fontWeight="bold"
-                        href="#"
+                        href={`/project/${slug}`}
                         sx={{
                           display: 'inline-flex',
                           alignItems: 'center',

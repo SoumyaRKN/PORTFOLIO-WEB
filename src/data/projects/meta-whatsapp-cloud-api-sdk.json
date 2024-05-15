@@ -1,0 +1,41 @@
+{
+    "title": "Meta Whatsapp Cloud API SDK",
+    "description": "A Node.js SDK for simplifying communication with WhatsApp Cloud APIs. It provides functionalities to interact with the WhatsApp Cloud Business API, including sending templates, messages, attachments, uploading media, and verifying webhooks.",
+    "images": [
+        {
+            "image": "/projects/meta_whatsapp_cloud_api_sdk/1.png",
+            "title": "Meta Whatsapp Cloud API SDK"
+        }
+    ],
+    "features": [
+        {
+            "title": "Send Templates",
+            "description": "Send template messages to WhatsApp users, including support for various message components such as text, images, locations, currencies, and date/time."
+        },
+        {
+            "title": "Send Messages",
+            "description": "Send text messages to WhatsApp users."
+        },
+        {
+            "title": "Send Media",
+            "description": "Send images, videos, audios, and documents to WhatsApp users, with support for media uploading."
+        },
+        {
+            "title": "Download Media",
+            "description": "Download media files from WhatsApp, such as images, videos, audios, and documents."
+        },
+        {
+            "title": "Webhook Verification",
+            "description": "Verify webhook endpoints for receiving WhatsApp API callbacks, such as message delivery notifications."
+        },
+        {
+            "title": "Template Management",
+            "description": "Register, retrieve, update, and delete templates for WhatsApp message formatting and content."
+        }
+    ],
+    "technologies": [
+        "Node.js"
+    ],
+    "objective": "The objective of this project was to create an SDK for Node.js that simplifies communication with WhatsApp Cloud APIs, providing developers with easy-to-use functionalities for sending messages, managing templates, verifying webhooks, and validating contacts.",
+    "conclusion": "The project successfully achieved its objective by implementing features such as sending templates, messages, and media; downloading media; webhook verification; template management; and contact validation. It utilized Node.js and JavaScript for development. Additionally, it provides developers with a convenient and efficient SDK for integrating WhatsApp functionalities into their applications."
+}

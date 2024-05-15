@@ -1,0 +1,36 @@
+{
+    "title": "Quiz App",
+    "description": "A quiz application that allows users to enter their name, answer a series of questions, and view their quiz results.",
+    "images": [
+        {
+            "image": "/projects/quiz_app/1.png",
+            "title": "Enter Name"
+        },
+        {
+            "image": "/projects/quiz_app/2.png",
+            "title": "Quiz"
+        }
+    ],
+    "features": [
+        {
+            "title": "User Name Entry",
+            "description": "Allows users to enter their name before starting the quiz."
+        },
+        {
+            "title": "Answer 10 Questions",
+            "description": "Presents users with a series of 10 questions to answer."
+        },
+        {
+            "title": "Quiz Result Display",
+            "description": "Shows users their quiz results at the end, including the number of correct and incorrect answers."
+        }
+    ],
+    "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Quiz API"
+    ],
+    "objective": "The objective of this project was to create a quiz application that provides users with an interactive quiz experience, allowing them to test their knowledge on various topics.",
+    "conclusion": "The project successfully achieved its objectives by implementing features such as User Name Entry, Answer 10 Questions, and Quiz Result Display. It utilized HTML, CSS, and JavaScript for the frontend, and integrated with a Quiz API to fetch new quizzes dynamically. Additionally, it provides users with an engaging quiz experience and instant feedback on their performance."
+}
