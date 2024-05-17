@@ -83,8 +83,9 @@ const PROJECTS = [
             "Node.js",
             "Express.js",
             "Socket.IO",
+            "JavaScript",
             "JWT",
-            "bcrypt",
+            "Bcrypt",
             "MongoDB"
         ],
         objective: "The objective of this project was to provide business owners with a platform to communicate effectively with their customers via their WhatsApp Business accounts.",
@@ -121,9 +122,10 @@ const PROJECTS = [
             "React Confirm Alert",
             "Node.js",
             "Express.js",
+            "JavaScript",
             "JWT",
-            "bcrypt",
-            "MongoDB"
+            "Bcrypt",
+            "MongoDB",
         ],
         objective: "The objective of this project was to provide an administrative interface for managing organizations/owners, handling bill payments, and providing dashboard analytics for the WhatsApp Business Chat App.",
         conclusion: "The project successfully achieved its objectives by implementing features such as Dashboard, Manage Organizations/Owners, and Bill Payment Management. It utilized modern technologies like Next.js, Material UI, React, Node.js, Express.js, and MongoDB. Additionally, it was hosted on a shared server to make it accessible for administrative purposes."
@@ -165,7 +167,7 @@ const PROJECTS = [
             }
         ],
         technologies: [
-            "Node.js"
+            "Node.js",
         ],
         objective: "The objective of this project was to create an SDK for Node.js that simplifies communication with WhatsApp Cloud APIs, providing developers with easy-to-use functionalities for sending messages, managing templates, verifying webhooks, and validating contacts.",
         conclusion: "The project successfully achieved its objective by implementing features such as sending templates, messages, and media; downloading media; webhook verification; template management; and contact validation. It utilized Node.js and JavaScript for development. Additionally, it provides developers with a convenient and efficient SDK for integrating WhatsApp functionalities into their applications."
@@ -209,8 +211,10 @@ const PROJECTS = [
             "CSS",
             "Bootstrap",
             "JavaScript",
+            "JWT",
+            "Bcrypt",
             "Socket.IO",
-            "MongoDB"
+            "MongoDB",
         ],
         objective: "The objective of this project was to create a chat application that provides users with the ability to sign up, log in, and join group chat rooms for real-time communication.",
         conclusion: "The project successfully achieved its objective by implementing features such as User Authentication, Group Chat Rooms, and Real-time Messaging. It utilized technologies like Node.js, Express.js, Pug (View Engine), CSS, Bootstrap, JavaScript, Socket.IO, and MongoDB. Additionally, it provides users with a seamless and interactive chat experience."
@@ -271,7 +275,9 @@ const PROJECTS = [
             "Next.js",
             "Tailwind CSS",
             "JavaScript",
-            "MongoDB"
+            "JWT",
+            "Bcrypt",
+            "MongoDB",
         ],
         objective: "The objective of this project was to create a blog application that provides users with the ability to explore, read, and post blogs, as well as contact the administrator and search for blogs of interest.",
         conclusion: "The project successfully achieved its objective by implementing features such as Explore and Read Blogs, User Authentication, Post Blogs, Contact Administrator, and Search Blogs. It utilized technologies like Next.js, Tailwind CSS, JavaScript, and MongoDB. Additionally, it provides users with a user-friendly and feature-rich platform for blogging."
@@ -304,7 +310,8 @@ const PROJECTS = [
             "Next.js",
             "Tailwind CSS",
             "OpenWeather API",
-            "JavaScript Geocoding API"
+            "JavaScript",
+            "Geocoding API",
         ],
         objective: "The objective of this project was to develop a weather application that offers users the convenience of checking weather forecasts for their current location and searching for weather information of other places.",
         conclusion: "The project successfully achieved its objectives by implementing features such as Current Location Weather Forecast and Search Place. It utilized technologies like React for the frontend, Node.js and Express for the backend, and integrated with OpenWeatherMap API for weather data and Geocoding API for location search. Additionally, it provides a user-friendly interface for seamless weather information access."
@@ -341,7 +348,7 @@ const PROJECTS = [
             "HTML",
             "CSS",
             "JavaScript",
-            "Quiz API"
+            "Quiz API",
         ],
         objective: "The objective of this project was to create a quiz application that provides users with an interactive quiz experience, allowing them to test their knowledge on various topics.",
         conclusion: "The project successfully achieved its objectives by implementing features such as User Name Entry, Answer 10 Questions, and Quiz Result Display. It utilized HTML, CSS, and JavaScript for the frontend, and integrated with a Quiz API to fetch new quizzes dynamically. Additionally, it provides users with an engaging quiz experience and instant feedback on their performance."
@@ -377,7 +384,7 @@ const PROJECTS = [
         technologies: [
             "Next.js",
             "Tailwind CSS",
-            "JavaScript"
+            "JavaScript",
         ],
         objective: "The objective of this project was to create a file downloader application that simplifies the process of downloading files from provided URLs, while also providing users with real-time progress updates, download status, and file size information.",
         conclusion: "The project successfully achieved its objectives by implementing features such as File Download from URL, Real-time Progress Updates, Download Status Display, and File Size Information. It utilized Next.js, Tailwind CSS, and JavaScript for the frontend development. Additionally, it provides users with a user-friendly interface and efficient file download experience."
@@ -405,7 +412,7 @@ const PROJECTS = [
         technologies: [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
         ],
         objective: "The objective of this project was to create an interactive game that provides players with an engaging experience while learning programming concepts.",
         conclusion: "The project successfully achieved its objectives by implementing features such as Interactive Gameplay and Scoring Feature. It utilized HTML, CSS, and JavaScript for game development. Additionally, it provides players with a fun and educational experience during learning sessions."
@@ -429,7 +436,7 @@ const PROJECTS = [
         technologies: [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
         ],
         objective: "The objective of this project was to create a simple digital clock application using basic web development technologies.",
         conclusion: "The project successfully achieved its objective by implementing the feature to display the current time. It utilized HTML, CSS, and JavaScript for development. Additionally, it provides users with a straightforward and functional digital clock application."
@@ -453,7 +460,7 @@ const PROJECTS = [
         technologies: [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
         ],
         objective: "The objective of this project was to create a simple analog clock application using basic web development technologies.",
         conclusion: "The project successfully achieved its objective by implementing the feature to display the current time in a traditional analog format. It utilized HTML, CSS, and JavaScript for development. Additionally, it provides users with a classic and functional analog clock application."

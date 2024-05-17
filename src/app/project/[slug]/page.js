@@ -3,11 +3,13 @@
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import getLPTheme from '@/getLPTheme';
+import getLPTheme from '@/utility/getLPTheme';
 import { CssBaseline } from "@mui/material";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Box, AppBar, Toolbar, Button, Container, Divider, Typography, MenuItem, Drawer } from '@mui/material';
+
+/*===================== Components =====================*/
 import ToggleColorMode from '@/components/ToggleColorMode';
 import ProjectDetails from '@/components/ProjectDetails';
 import Footer from '@/components/Footer';

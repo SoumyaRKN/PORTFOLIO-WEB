@@ -1,8 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Email, GitHub, Instagram, LinkedIn, Phone } from '@mui/icons-material';
 import { Box, Button, Container, TextField, Typography, Radio, Grid, FormControlLabel, FormControl, FormLabel, RadioGroup, Card } from '@mui/material';
+import INTERESTED_IN from '@/data/interestedIn';
+import { errorAlert, successAlert } from '@/utility/toastify';
+
+/*====================== Server Actions ======================*/
+import { saveContactInquiry } from '@/actions';
 
 export default function Contact() {
+  const INITIAL_CONTACT_OBJ = {
+    firstName: "",
+    lastName: "",
+    email: "",
+    mobile: "",
+    interestedIn: "Frontend Development",
+    message: ""
+  };
+
+  const [contactObj, setContactObj] = useState(INITIAL_CONTACT_OBJ);
+
+  const handelChange = (e) => {
+    setContactObj({ ...contactObj, [e.target.name]: e.target.value });
+  };
+
+  const handelSubmit = async (e) => {
+    e.preventDefault();
+    console.log(contactObj);
+
+    if (!contactObj.firstName) return errorAlert("First Name is required!");
+    if (!contactObj.lastName) return errorAlert("Last Name is required!");
+    if (!contactObj.email) return errorAlert("Email is required!");
+    if (!contactObj.mobile) return errorAlert("Mobile Number is required!");
+    if (!contactObj.interestedIn) return errorAlert("Your Interested is required!");
+    if (!contactObj.message) return errorAlert("Message is required!");
+
+    const response = await saveContactInquiry(contactObj);
+    console.log(response);
+
+    if (!response.status) return errorAlert(response.error);
+
+    setContactObj(INITIAL_CONTACT_OBJ);
+    successAlert(response.message);
+  };
+
   return (
     <Container
       id="contact"
@@ -68,7 +108,7 @@ export default function Contact() {
         </Grid>
 
         <Grid item xs={12} md={6}>
-          <form>
+          <form onSubmit={handelSubmit}>
             <Grid container spacing={3}>
               <Grid item xs={12}>
                 <TextField
@@ -80,6 +120,8 @@ export default function Contact() {
                   fullWidth
                   aria-label="Enter your first name"
                   placeholder="Your First Name"
+                  value={contactObj.firstName}
+                  onChange={handelChange}
                 />
               </Grid>
 
@@ -93,6 +135,8 @@ export default function Contact() {
                   fullWidth
                   aria-label="Enter your last name"
                   placeholder="Your Last Name"
+                  value={contactObj.lastName}
+                  onChange={handelChange}
                 />
               </Grid>
 
@@ -106,6 +150,8 @@ export default function Contact() {
                   fullWidth
                   aria-label="Enter your email"
                   placeholder="Your Email"
+                  value={contactObj.email}
+                  onChange={handelChange}
                 />
               </Grid>
 
@@ -119,24 +165,26 @@ export default function Contact() {
                   fullWidth
                   aria-label="Enter your mobile number"
                   placeholder="Your Mobile Number"
+                  value={contactObj.mobile}
+                  onChange={handelChange}
                 />
               </Grid>
 
               <Grid item xs={12}>
                 <FormControl>
-                  <FormLabel id="what-are-you-interested-in">What are you interested in?</FormLabel>
+                  <FormLabel id="interestedIn">What are you interested in?</FormLabel>
                   <RadioGroup
                     row
                     aria-labelledby="what-are-you-interested-in"
-                    name="what-are-you-interested-in"
+                    name="interestedIn"
+                    value={contactObj.interestedIn}
+                    onChange={handelChange}
                   >
-                    <FormControlLabel value="Frontend Development" control={<Radio />} label="Frontend Development" />
-                    <FormControlLabel value="Backend Development" control={<Radio />} label="Backend Development" />
-                    <FormControlLabel value="Full Stack Development" control={<Radio />} label="Full Stack Development" />
-                    <FormControlLabel value="API Integration" control={<Radio />} label="API Integration" />
-                    <FormControlLabel value="Webhook Integration" control={<Radio />} label="Webhook Integration" />
-                    <FormControlLabel value="Web Optimization" control={<Radio />} label="Web Optimization" />
-                    <FormControlLabel value="Others" control={<Radio />} label="Others" />
+                    {
+                      INTERESTED_IN.map((item, index) => {
+                        return <FormControlLabel key={index} value={item.value} control={<Radio />} label={item.label} />
+                      })
+                    }
                   </RadioGroup>
                 </FormControl>
               </Grid>
@@ -151,6 +199,8 @@ export default function Contact() {
                   fullWidth
                   aria-label="Enter message"
                   placeholder="Enter Message"
+                  value={contactObj.message}
+                  onChange={handelChange}
                 />
               </Grid>
 
