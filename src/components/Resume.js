@@ -86,7 +86,7 @@ const Resume = ({ personalInfo, summary, experience, education, skills, projects
                                     Work Experience
                                 </Typography>
                                 <Typography variant="body1" color="text.secondary">
-                                    See my experience as a developer.
+                                    A summary of my professional work history, showcasing key responsibilities.
                                 </Typography>
                             </Box>
 
@@ -140,7 +140,7 @@ const Resume = ({ personalInfo, summary, experience, education, skills, projects
                             <Box sx={{ width: '100%', textAlign: 'left', px: 1 }}>
                                 <Typography component="h2" variant="h4" color="text.primary">Languages</Typography>
                                 <Typography variant="body1" color="text.secondary">
-                                    Languages i know.
+                                    A list of spoken languages I am proficient in, with proficiency levels for each.
                                 </Typography>
                             </Box>
 
@@ -178,7 +178,7 @@ const Resume = ({ personalInfo, summary, experience, education, skills, projects
                             <Box sx={{ width: '100%', textAlign: 'left', px: 1 }}>
                                 <Typography component="h2" variant="h4" color="text.primary">Skills</Typography>
                                 <Typography variant="body1" color="text.secondary">
-                                    Check out my technical skills.
+                                    A list of technical skills i possess.
                                 </Typography>
                             </Box>
 
@@ -204,7 +204,7 @@ const Resume = ({ personalInfo, summary, experience, education, skills, projects
                                     Education & Certifications
                                 </Typography>
                                 <Typography variant="body1" color="text.secondary">
-                                    See my education history.
+                                    Details of my academic background and any certifications or professional training that enhance my qualifications.
                                 </Typography>
                             </Box>
 
@@ -247,7 +247,7 @@ const Resume = ({ personalInfo, summary, experience, education, skills, projects
                             <Box sx={{ width: '100%', textAlign: 'left', px: 1 }}>
                                 <Typography component="h2" variant="h4" color="text.primary">My Interests</Typography>
                                 <Typography variant="body1" color="text.secondary">
-                                    I love doing these things.
+                                    Personal interests and hobbies that highlight my personality and can connect to my professional life.
                                 </Typography>
                             </Box>
 
@@ -275,7 +275,7 @@ const Resume = ({ personalInfo, summary, experience, education, skills, projects
                             My Projects
                         </Typography>
                         <Typography variant="body1" color="text.secondary">
-                            See the projects on which i have worked.
+                            Descriptions of significant projects I have worked on, highlighting objectives, my role, and technologies used.
                         </Typography>
                     </Box>
 
