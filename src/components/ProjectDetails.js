@@ -1,8 +1,8 @@
 import React from 'react';
-import { Card, CardContent, CardHeader, Chip, Grid, ImageList, ImageListItem, ImageListItemBar, alpha, Box, Container, Stack, Typography } from '@mui/material';
+import { Card, CardContent, CardHeader, Chip, Grid, ImageList, ImageListItem, ImageListItemBar, alpha, Box, Container, Stack, Typography, Link } from '@mui/material';
 
 export default function ProjectDetails({ project }) {
-  const { title, description, images, features, technologies, objective, conclusion } = project;
+  const { link, title, description, images, features, technologies, objective, conclusion } = project;
   return (
     <Box
       id="projectDetails"
@@ -30,6 +30,14 @@ export default function ProjectDetails({ project }) {
         <Box sx={{ width: { sm: '100%', md: '60%' }, textAlign: { sm: 'left', md: 'center' }, }}>
           <Typography component="h2" variant="h4" color="text.primary">{title}</Typography>
           <Typography variant="body1" color="text.secondary">{description}</Typography>
+
+          {
+            link && <Box mt={3}>
+              <Typography variant="button" color="primary" sx={{ opacity: 0.8 }} component={Link} href={link} target="_blank">
+                Visit Site
+              </Typography>
+            </Box>
+          }
         </Box>
 
         <Stack spacing={2} useFlexGap sx={{ width: '100%' }}>

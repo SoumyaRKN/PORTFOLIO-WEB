@@ -1,6 +1,9 @@
 const PROJECTS = [
     {
-        slug: 'whatsapp-buseness-chat-app',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://whisperwave-frontend.vercel.app",
+        slug: "whatsapp-buseness-chat-app",
         title: "Whatsapp Business Chat App",
         description: "A chat application designed to facilitate seamless communication between business owners and their customers through WhatsApp Business accounts.",
         images: [
@@ -35,7 +38,7 @@ const PROJECTS = [
                 description: "Access a dashboard displaying weekly messages chart, available templates categorized by status and available contacts categorized by status."
             },
             {
-                title: "WhatsApp account Management",
+                title: "WhatsApp account management",
                 description: "Set up and configure WhatsApp Business accounts to enable communication with customers."
             },
             {
@@ -92,7 +95,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objectives by implementing features such as Dashboard, WhatsApp Business account Management, Message template registration, Import message templates, Sync message template status, Add contacts, User management, Chat with customers, Real-time messaging, Text and media templates and User authentication. It utilized modern technologies like Next.js, Material UI, Node.js, Express.js, Socket.IO, JWT, and MongoDB. Additionally, it was hosted on a shared server to make it accessible for demo."
     },
     {
-        slug: 'whatsapp-buseness-chat-app-admin-panel',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://whisperwave-admin-panel.vercel.app",
+        slug: "whatsapp-buseness-chat-app-admin-panel",
         title: "WhatsApp Business Chat App Admin Panel",
         description: "An admin panel designed to manage organizations/owners, handle bill payment management, and provide dashboard analytics for the WhatsApp Business Chat App.",
         images: [
@@ -131,7 +137,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objectives by implementing features such as Dashboard, Manage Organizations/Owners, and Bill Payment Management. It utilized modern technologies like Next.js, Material UI, React, Node.js, Express.js, and MongoDB. Additionally, it was hosted on a shared server to make it accessible for administrative purposes."
     },
     {
-        slug: 'meta-whatsapp-cloud-api-sdk',
+        category: "Personal",
+        role: "Backend Developer",
+        link: "https://www.npmjs.com/package/meta-whatsapp-cloud-api-sdk",
+        slug: "meta-whatsapp-cloud-api-sdk",
         title: "Meta Whatsapp Cloud API SDK",
         description: "A Node.js SDK for simplifying communication with WhatsApp Cloud APIs. It provides functionalities to interact with the WhatsApp Cloud Business API, including sending templates, messages, attachments, uploading media, and verifying webhooks.",
         images: [
@@ -173,7 +182,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objective by implementing features such as sending templates, messages, and media; downloading media; webhook verification; template management; and contact validation. It utilized Node.js and JavaScript for development. Additionally, it provides developers with a convenient and efficient SDK for integrating WhatsApp functionalities into their applications."
     },
     {
-        slug: 'chat-application',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://github.com/SoumyaRKN/ichat-a-chat-application",
+        slug: "chat-application",
         title: "Chat Application",
         description: "A chat application that allows users to sign up, log in, and join group chat rooms with other users to communicate in real-time.",
         images: [
@@ -220,7 +232,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objective by implementing features such as User Authentication, Group Chat Rooms, and Real-time Messaging. It utilized technologies like Node.js, Express.js, Pug (View Engine), CSS, Bootstrap, JavaScript, Socket.IO, and MongoDB. Additionally, it provides users with a seamless and interactive chat experience."
     },
     {
-        slug: 'blog-app',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://github.com/SoumyaRKN/NextJs-iBlog",
+        slug: "blog-app",
         title: "Blog App",
         description: "A blog application that allows users to explore and read blogs posted by other users, as well as sign up, log in, post their own blogs, contact the administrator, and search for blogs.",
         images: [
@@ -283,7 +298,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objective by implementing features such as Explore and Read Blogs, User Authentication, Post Blogs, Contact Administrator, and Search Blogs. It utilized technologies like Next.js, Tailwind CSS, JavaScript, and MongoDB. Additionally, it provides users with a user-friendly and feature-rich platform for blogging."
     },
     {
-        slug: 'weather-app',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://next-weather-app-xi.vercel.app",
+        slug: "weather-app",
         title: "Weather App",
         description: "A weather application that provides users with weather forecasts for their current location and allows them to search for weather information of other places.",
         images: [
@@ -317,7 +335,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objectives by implementing features such as Current Location Weather Forecast and Search Place. It utilized technologies like React for the frontend, Node.js and Express for the backend, and integrated with OpenWeatherMap API for weather data and Geocoding API for location search. Additionally, it provides a user-friendly interface for seamless weather information access."
     },
     {
-        slug: 'quiz-app',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://soumyarkn.github.io/quiz-app",
+        slug: "quiz-app",
         title: "Quiz App",
         description: "A quiz application that allows users to enter their name, answer a series of questions, and view their quiz results.",
         images: [
@@ -354,7 +375,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objectives by implementing features such as User Name Entry, Answer 10 Questions, and Quiz Result Display. It utilized HTML, CSS, and JavaScript for the frontend, and integrated with a Quiz API to fetch new quizzes dynamically. Additionally, it provides users with an engaging quiz experience and instant feedback on their performance."
     },
     {
-        slug: 'file-downloader',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://file-downloader-seven.vercel.app",
+        slug: "file-downloader",
         title: "File Downloader",
         description: "A file downloader application that allows users to download files from provided URLs. It also provides real-time progress updates, download status, and file size information.",
         images: [
@@ -390,7 +414,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objectives by implementing features such as File Download from URL, Real-time Progress Updates, Download Status Display, and File Size Information. It utilized Next.js, Tailwind CSS, and JavaScript for the frontend development. Additionally, it provides users with a user-friendly interface and efficient file download experience."
     },
     {
-        slug: 'dragon-game',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://soumyarkn.github.io/Dragon-Game-JS",
+        slug: "dragon-game",
         title: "Dragon Game",
         description: "A game built during learning sessions, where players interact with a dragon character and earn scores.",
         images: [
@@ -418,7 +445,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objectives by implementing features such as Interactive Gameplay and Scoring Feature. It utilized HTML, CSS, and JavaScript for game development. Additionally, it provides players with a fun and educational experience during learning sessions."
     },
     {
-        slug: 'digital-clock',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://soumyarkn.github.io/Digital-Clock/",
+        slug: "digital-clock",
         title: "Digital Clock",
         description: "A digital clock application built during learning sessions, displaying the current time.",
         images: [
@@ -442,7 +472,10 @@ const PROJECTS = [
         conclusion: "The project successfully achieved its objective by implementing the feature to display the current time. It utilized HTML, CSS, and JavaScript for development. Additionally, it provides users with a straightforward and functional digital clock application."
     },
     {
-        slug: 'analog-clock',
+        category: "Personal",
+        role: "Full Stack Developer",
+        link: "https://soumyarkn.github.io/Analog-clock",
+        slug: "analog-clock",
         title: "Analog Clock",
         description: "An analog clock application built during learning sessions, displaying the current time in a traditional analog format.",
         images: [
