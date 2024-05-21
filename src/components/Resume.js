@@ -57,7 +57,7 @@ const Resume = ({ personalInfo, summary, experience, education, skills, projects
             <Container
                 sx={{
                     bgcolor: 'background.default',
-                    pt: { xs: 14, sm: 20 },
+                    pt: { xs: 2, sm: 4 },
                     pb: { xs: 2, sm: 4 },
                     position: 'relative',
                     display: 'flex',
