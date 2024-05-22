@@ -80,13 +80,13 @@ export default function Contact() {
               Fill up the form and I will get back to you within 24 hours.
             </Typography>
 
-            <Box className="flex gap-5">
+            <Box className="flex gap-5" component="a" href="tel:8908930619" target="_blank">
               <Phone className="h-6 w-6 text-white" />
               <Typography variant="h6" color="white" className="mb-2">
                 +91 8908930619
               </Typography>
             </Box>
-            <Box className="flex my-2 gap-5" component="a" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" target="_blank">
+            <Box className="flex my-2 gap-5" component="a" href="mailto:nsoumyaprakash@gmail.com" target="_blank">
               <Email className="h-6 w-6 text-white" />
               <Typography variant="h6" color="white" className="mb-2">
                 nsoumyaprakash@gmail.com

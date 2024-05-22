@@ -73,8 +73,7 @@ export default function Skills() {
           color="inherit"
           variant="body2"
           fontWeight="bold"
-          href="/resume.pdf"
-          target="_blank"
+          href="/resume"
           sx={{
             display: 'inline-flex',
             alignItems: 'center',

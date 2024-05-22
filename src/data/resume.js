@@ -27,7 +27,7 @@ const RESUME_DETAILS = {
             {
                 icon: <Email />,
                 name: "Email",
-                link: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                link: "mailto:nsoumyaprakash@gmail.com"
             },
             {
                 icon: <GitHub />,

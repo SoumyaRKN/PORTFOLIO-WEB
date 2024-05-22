@@ -93,7 +93,7 @@ export default function Hero() {
           </Stack>
           <Typography variant="caption" textAlign="center" sx={{ opacity: 0.8 }}>
             Read my&nbsp;
-            <Link href="#" color="primary">
+            <Link href="/termsofservice" color="primary">
               Terms & Conditions
             </Link>
             .

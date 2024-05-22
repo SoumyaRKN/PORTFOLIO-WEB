@@ -144,20 +144,22 @@ const Resume = ({ personalInfo, summary, experience, education, skills, projects
                                 </Typography>
                             </Box>
 
-                            <Stack sx={{ display: 'flex', flexDirection: 'row', flexWrap: "wrap", gap: { xs: 1, sm: 2 }, }}>
+                            <Grid container spacing={2}>
                                 {languages.map((item, index) => (
-                                    <Box key={index} component={Card} variant="outlined" boxShadow={2}>
-                                        <Box p={2}>
-                                            <Typography color="text.primary" variant="body2" fontWeight="bold">
-                                                {item.name}
-                                            </Typography>
-                                            <Typography color="text.secondary" variant="body2" sx={{ my: 0.5 }}>
-                                                {item.proficiency}
-                                            </Typography>
+                                    <Grid item xs={12} sm={6} key={index}>
+                                        <Box key={index} component={Card} variant="outlined" boxShadow={2}>
+                                            <Box p={2}>
+                                                <Typography color="text.primary" variant="body2" fontWeight="bold">
+                                                    {item.name}
+                                                </Typography>
+                                                <Typography color="text.secondary" variant="body2" sx={{ my: 0.5 }}>
+                                                    {item.proficiency}
+                                                </Typography>
+                                            </Box>
                                         </Box>
-                                    </Box>
+                                    </Grid>
                                 ))}
-                            </Stack>
+                            </Grid>
                         </Container>
                     </Grid>
 
@@ -210,7 +212,7 @@ const Resume = ({ personalInfo, summary, experience, education, skills, projects
 
                             <Grid container spacing={2}>
                                 {education.map((item, index) => (
-                                    <Grid item xs={12} key={index} >
+                                    <Grid item xs={12} key={index}>
                                         <Box component={Card} variant="outlined" boxShadow={2}>
                                             <Box sx={{ px: 2, py: 2 }}>
                                                 <Typography color="primary" fontSize={13} fontWeight={600} sx={{ opacity: "80%" }}>
