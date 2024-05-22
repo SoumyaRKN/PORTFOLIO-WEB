@@ -36,7 +36,7 @@ const TermsOfService = () => {
                         <List sx={{ mt: 5 }}>
                             <ListItem>
                                 <Typography variant="body1">
-                                    We are Portfolio Soumya Prakash Nayak ("i," "we," "us," "our") , a company registered in India at Matia, Jagulaipara , Rajkanika , Kendrapara , ODISHA 754220 .
+                                    We are Portfolio Soumya Prakash Nayak (&quot;i,&quot; &quot;we,&quot; &quot;us,&quot; &quot;our&quot;) , a company registered in India at Matia, Jagulaipara , Rajkanika , Kendrapara , ODISHA 754220 .
                                 </Typography>
                             </ListItem>
                             <ListItem>

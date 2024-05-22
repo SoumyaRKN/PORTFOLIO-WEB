@@ -35,7 +35,7 @@ const PrivacyPolicy = () => {
 
                         <Box mt={5}>
                             <Typography variant="body1" paragraph>
-                                This privacy notice for <strong>Portfolio Soumya Prakash Nayak</strong> ("<strong>i</strong>", "<strong>we</strong>", "<strong>us</strong>", or "<strong>our</strong>"), describes how and why we might collect, store, use, and/or share ("<strong>process</strong>") your information when you use our services ("<strong>Services</strong>"), such as when you:
+                                This privacy notice for <strong>Portfolio Soumya Prakash Nayak</strong> (&quot;<strong>i</strong>&quot;, &quot;<strong>we</strong>&quot;, &quot;<strong>us</strong>&quot;, or &quot;<strong>our</strong>&quot;), describes how and why we might collect, store, use, and/or share (&quot;<strong>process</strong>&quot;) your information when you use our services (&quot;<strong>Services</strong>&quot;), such as when you:
                             </Typography>
 
                             <List>
