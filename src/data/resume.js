@@ -163,7 +163,7 @@ const RESUME_DETAILS = {
     ],
     projects: [
         {
-            category: "Professional",
+            category: "Zolute Technology and Consulting Private Limited",
             role: "Backend Developer",
             link: null,
             title: "Network Management System",
@@ -177,7 +177,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "Zolute Technology and Consulting Private Limited",
             role: "Backend Developer",
             link: null,
             title: "Meta Page Lead SDK",
@@ -187,7 +187,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "Zolute Technology and Consulting Private Limited",
             role: "Backend Developer",
             link: null,
             title: "WhatsApp Cloud API PHP SDK",
@@ -197,7 +197,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "Zolute Technology and Consulting Private Limited",
             role: "Full Stack Developer",
             link: null,
             title: "ERP System",
@@ -210,7 +210,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "Zolute Technology and Consulting Private Limited",
             role: "Full Stack Developer",
             link: null,
             title: "Professional Panel",
@@ -223,7 +223,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "Zolute Technology and Consulting Private Limited",
             role: "Backend Developer",
             link: null,
             title: "WhatsApp Chat Box",
@@ -236,7 +236,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "Zolute Technology and Consulting Private Limited",
             role: "Full Stack Developer",
             link: null,
             title: "Tiffin/Meal Service Management Application",
@@ -249,7 +249,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "iKontel Solutions Pvt.Ltd",
             role: "Backend Developer",
             link: null,
             title: "Jan Aadhaar API Communication",
@@ -259,7 +259,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "iKontel Solutions Pvt.Ltd",
             role: "Full Stack Developer",
             link: null,
             title: "Healthcare Clinic Management Application",
@@ -272,7 +272,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "iKontel Solutions Pvt.Ltd",
             role: "Full Stack Developer",
             link: null,
             title: "Organization Website Admin Panel",
@@ -286,7 +286,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "iKontel Solutions Pvt.Ltd",
             role: "Full Stack Developer",
             link: null,
             title: "Healthcare Lab Management Application",
@@ -300,7 +300,7 @@ const RESUME_DETAILS = {
             ],
         },
         {
-            category: "Professional",
+            category: "iKontel Solutions Pvt.Ltd",
             role: "Full Stack Developer",
             link: null,
             title: "Healthcare Hospital Website",
