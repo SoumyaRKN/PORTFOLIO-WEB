@@ -1,0 +1,33 @@
+:root {
+    --background: 0 0% 100%;
+    --foreground: 225 35% 10%;
+    --muted: 220 20% 96%;
+    --muted-foreground: 220 10% 44%;
+    --surface: 220 30% 98%;
+    --surface-foreground: 225 35% 10%;
+    --border: 220 18% 86%;
+    --ring: 210 70% 42%;
+    --primary: 206 78% 42%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 22 94% 52%;
+    --secondary-foreground: 0 0% 100%;
+    --danger: 356 72% 50%;
+    --danger-foreground: 0 0% 100%;
+}
+
+[data-theme="dark"] {
+    --background: 224 40% 7%;
+    --foreground: 215 30% 94%;
+    --muted: 225 22% 14%;
+    --muted-foreground: 218 14% 70%;
+    --surface: 224 34% 10%;
+    --surface-foreground: 215 30% 94%;
+    --border: 222 20% 22%;
+    --ring: 206 78% 55%;
+    --primary: 206 78% 55%;
+    --primary-foreground: 224 40% 7%;
+    --secondary: 22 90% 58%;
+    --secondary-foreground: 224 40% 7%;
+    --danger: 356 70% 58%;
+    --danger-foreground: 224 40% 7%;
+}
